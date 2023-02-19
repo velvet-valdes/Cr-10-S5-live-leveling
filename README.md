@@ -1,16 +1,11 @@
-# !!The scripts are printer specific so make sure you only use the one for yours!!
-*The names have a number in the beginning so that you know exactly which script to run since sometimes the screen(Cr-10) doesnt show all letters*   
-- 1.Level.CR-10 is for the 300x300 printer 
-- 2.Level.CR-10-S4 is for the 400x400 pinter 
-- 3.Level.CR-10-S5 is for the 500x500 printer  
+# CR10-S5 Leveling Script for 510x510 print bed
 
-### WHAT IT DOES:   
-  It will move to each corner and zero the z axis on it for 30 seconds. When 10 seconds are left, it will beep to let you know.   Before returning to the home position it moves to the center to verify the leveling there.
+## Overview   
+The script moves to 50 mm in from the corners to take a level position similar to BLtouch.  Audible feedback is provided for the extruder movement.
 
-### HOW TO USE IT:
-  1. Choose the correct gcode script for your printer. 
-  2. Upload it to your printers SD card and run the program. 
-  3. Wait for the printer to finish homing the Z axis and then level the bed with your prefered method. 
+## Usage
+Lower your bed before you run the script and adjust the leveling up.  Use the the number in the script designates the number of passes and the NH and H stand for No Home and Home respectively.  Use the scripts with homing to start and touch up with the non homing scripts.
   
-### Recomendations:
-  Lower your bed before you run the script so that you extruder doesnt crash into the bed and damage anything.
+## Recomendations:
+Use a feeler gauge for precise measurement not a peice of paper.
+  
