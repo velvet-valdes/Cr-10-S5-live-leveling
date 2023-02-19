@@ -1,4 +1,4 @@
-# CR10-S5 Leveling Script for 510x510 print bed
+# CR10-S5 Leveling Script for 510mm x 510mm print bed
 
 ## Overview   
 The script moves to 50 mm in from the corners to take a level position similar to BLtouch.  Audible feedback is provided for the extruder movement.
